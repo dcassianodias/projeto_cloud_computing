@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bnext_produtos_api
+    username: postgres
+    password: Th@bata2012
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+# Production
+---
+spring:
+  config:
+    activate:
+      on-profile: production
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_HOST}:5432/bnext_produtos_api

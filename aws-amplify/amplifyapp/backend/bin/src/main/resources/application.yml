@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api
+
+  datasource:
+    url: jdbc:postgresql://localhost/bnext_produtos_api
+    username: postgres
+    password: Th@bata2012
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true

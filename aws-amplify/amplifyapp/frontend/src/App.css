@@ -1,0 +1,66 @@
+form{
+  width: 500px;
+  margin: 30px auto;
+  text-align:center;
+}
+
+form input{
+  margin-bottom: 5px;
+}
+
+form input[type='button']{
+  margin-right: 10px;
+}
+
+.login-container {
+  width: 800px; /* Aumentei o tamanho do contêiner */
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #a8e480; /* Cor de fundo (um tom claro de azul) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+.login-form input {
+  margin-bottom: 10px; /* Reduz o espaço entre os campos */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%; /* Define a largura dos campos como 100% */
+  max-width: 300px; /* Define a largura máxima dos campos */
+}
+
+.login-form button {
+  margin-top: 10px; /* Adiciona espaço acima do botão */
+  padding: 10px; /* Mantive o padding anterior */
+  border-radius: 5px;
+  border: none;
+  background-color: #2ecc71; /* Cor verde */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Define a largura do botão para ocupar 100% do contêiner */
+  max-width: 300px; /* Define a largura máxima do botão */
+}
+
+.login-form button:hover {
+  background-color: #27ae60; /* Cor verde mais escura no hover */
+}
+
+.login-footer {
+  text-align: center; /* Centraliza o texto */
+  margin-top: 20px;
+  font-size: 17px;
+  color: #666;
+}
