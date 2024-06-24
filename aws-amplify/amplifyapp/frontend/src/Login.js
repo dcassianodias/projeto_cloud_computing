@@ -23,7 +23,7 @@ function Login({ setIsLoggedIn }) {
   return (
     <div className="login-container"> {}
       <header className="login-header">
-        <h2>Bnex Produtos</h2>
+        <h2>Projeto Adoção</h2>
         <p>Faça login para acessar sua conta</p>
       </header>
       <form className="login-form" onSubmit={handleSubmit}> {}

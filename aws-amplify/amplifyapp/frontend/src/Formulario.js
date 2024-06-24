@@ -3,7 +3,7 @@ function Formulario({botao, eventoTeclado, cadastrar, obj, cancelar, remover, at
         <form>
             <input type="text" value={obj.nome} onChange={eventoTeclado} name='nome' placeholder="Nome" className="form-control"/>
             <input type="text" value={obj.descricao} onChange={eventoTeclado} name='descricao' placeholder="Descricao" className="form-control"/>
-            <input type="text" value={obj.valor} onChange={eventoTeclado }name='valor' placeholder="Valor" className="form-control"/>
+            <input type="text" value={obj.valor} onChange={eventoTeclado }name='vacinado' placeholder="Vacinado" className="form-control"/>
 
             {
                 botao

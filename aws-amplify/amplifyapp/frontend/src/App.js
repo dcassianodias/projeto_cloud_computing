@@ -13,7 +13,7 @@ function App() {
     id: 0,
     nome: '',
     descricao: '',
-    valor: ''
+    vacinado: ''
   }
 
   // UseState
