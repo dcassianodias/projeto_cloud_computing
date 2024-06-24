@@ -1,6 +1,8 @@
 spring:
   application:
     name: api
+  server:
+    port: 5000
 
   datasource:
     url: jdbc:postgresql://localhost:5432/bnext_produtos_api
